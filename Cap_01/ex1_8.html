@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo1.8 - Cálculo de duração de horas de uma viagem </title>
+</head>
+<body>
+    <p>
+        Elaboro um programa que leia a durção de uma viagem em dias e horas.
+        Calcule e informe a duração total da viagem
+    </p>
+    <script>
+        const dias = Number(prompt("Informe o número de dias da sua viagem: "))
+        const horas = Number(prompt("Informe quantas horas adicionais sua viagem durou: "))
+        const horasDeViagem = (dias * 24) + horas
+        alert(`A viagem durou ${horasDeViagem} horas`)
+    </script>
+    
+</body>
+</html>

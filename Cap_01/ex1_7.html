@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo1.7 - Cálculo do valor do jantar</title>
+</head>
+<body>
+    <p>Elabore um programa que leia o valor de uma jantar.
+        Calcule e informe o valor da taxa do garçom (10%) e o valor total a ser pago
+    </p>
+    <script>
+        // Entrada de dados - valida o valor do jantar
+        const jantar = Number(prompt("Qual o valor do Jantar? "))
+        //Processamento - Calcula a taxa do garçom e valor total a ser pago
+        const taxaGarcom = jantar * 0.1
+        const valorTotal = jantar + taxaGarcom
+        // Saida - informativo do valor da janta + taxa
+        alert(`O jantar fico no valor de R$${valorTotal.toFixed(2)}.\n Sendo R$${jantar.toFixed(2)} o valor do jantar e R$${taxaGarcom.toFixed(2)} a taxa do garçom!`)
+    </script>
+</body>
+</html>

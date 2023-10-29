@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B - pizzaria</title>
+</head>
+<body>
+    <p> B - Elaborar um programa para uma pizzaria, o qual leia o valor total de uma conta e quantos clientes vão pagá-la. Calcule e informe o valor a ser pago por cliente.</p>
+    <script>
+        let valorPizza = Number(prompt("informe o valor da pizza:"))
+        let qtPessoas = Number(prompt("Quantas pessoas vão dividir a conta: "))
+        let valorPorPessoa = valorPizza/qtPessoas
+        alert(`O valor da pizza é de R$${valorPizza.toFixed(2)} e dividido em ${qtPessoas}, ficará no valor de R$${valorPorPessoa.toFixed(2)} por pessoa`)
+    </script>
+</body>
+</html>
